@@ -109,7 +109,7 @@ data:
           policy: local
     consumers:
     - username: a2V2aW4=
-       custom_id: veegee
+       id: veegee
     basicauth_credentials:
       - username: a2V2aW4=
         password: YWJjMTIz
