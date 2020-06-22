@@ -96,6 +96,7 @@ data:
       routes:
       - paths:
         - "/mockbin"
+      
     - url: "http://productpage.default.svc:9080"
       routes:
       - paths:
@@ -105,4 +106,4 @@ data:
         config:
           minute: 60
           policy: local
-   
+    
