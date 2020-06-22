@@ -108,7 +108,7 @@ data:
           minute: 60
           policy: local
     consumers:
-    - username: dmVua2k=
+    - username: a2V2aW4=
       basicauth_credentials:
-      - username: dmVua2k=
+      - username: a2V2aW4=
         password: YWJjMTIz
