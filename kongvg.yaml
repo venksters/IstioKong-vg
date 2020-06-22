@@ -96,8 +96,6 @@ data:
       routes:
       - paths:
         - "/mockbin"
-      plugins:
-      - name: basic-auth
     - url: "http://productpage.default.svc:9080"
       routes:
       - paths:
@@ -107,8 +105,4 @@ data:
         config:
           minute: 60
           policy: local
-    consumers:
-    - username: kevin
-      basicauth_credentials:
-      - username: kevin
-        password: abc123
+   
