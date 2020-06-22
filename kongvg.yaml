@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: kong
@@ -108,7 +108,7 @@ data:
           minute: 60
           policy: local
     consumers:
-    - username: a2V2aW4=
-    basicauth_credentials:
-      - username: a2V2aW4=
-        password: YWJjMTIz
+    - username: kevin
+      basicauth_credentials:
+      - username: kevin
+        password: abc123
