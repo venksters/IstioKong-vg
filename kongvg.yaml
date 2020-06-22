@@ -108,8 +108,8 @@ data:
           minute: 60
           policy: local
     consumers:
-    - username: a2V2aW4= 
-      id: veegee
-      basicauth_credentials:
+    - username: a2V2aW4=
+       custom_id: veegee
+    basicauth_credentials:
       - username: a2V2aW4=
         password: YWJjMTIz
